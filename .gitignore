@@ -9,3 +9,5 @@ data/*
 backend/artifacts/*
 !backend/artifacts/.gitkeep
 .pytest_cache/
+
+*.tsbuildinfo
