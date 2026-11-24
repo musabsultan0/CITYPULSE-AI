@@ -1,0 +1,59 @@
+CITYPULSE AI – Sample Urban Drainage Inspection
+ SOP
+Document type: Demonstration knowledge-base document
+Version: 1.0
+Status: Sample content for software testing only
+Important notice: This is fictional, non-official demonstration material. It is not a municipal procedure, engineering
+standard, emergency instruction, or substitute for guidance from qualified local authorities.
+1. Purpose
+This sample document describes a simple way to organize drainage inspection notes in a smart-city
+demonstration system. It helps a reviewer record observations consistently and identify information that
+needs verification.
+2. Scope
+The checklist covers visible storm-drain inlets, grates, nearby surface water, access conditions, and
+observations reported by authorized inspection personnel. It does not authorize field dispatch or
+maintenance work.
+3. Suggested observation fields
+
+Zone or asset identifier
+
+Observation date and local time
+
+Observation source: direct, reported, sensor, or simulated
+
+Visible condition of grate or inlet
+
+Visible standing water: present, absent, or unknown
+
+Photo or supporting reference, if available
+
+Reviewer name or role, where appropriate
+4. Inspection record checklist
+
+Confirm that the record refers to the intended zone or asset.
+
+Check that timestamps and measurement units are present.
+
+Describe visible debris or blockage without assuming its cause.
+
+Record whether the observation is current or historical.
+
+Flag missing, conflicting, or uncertain information for human review.
+
+Do not treat a model score as confirmation of an actual flood or blockage.
+5. Data quality and verification
+Record the observation time, location or zone identifier, reporting source, and units. Mark unknown values
+as unknown rather than estimating them. Distinguish direct observations from reports or simulated sensor
+readings.
+
+6. Escalation and human review
+If an observation may indicate a safety hazard, record it and refer it to the responsible authorized
+municipal team through established official procedures. The CITYPULSE AI prototype must only prepare
+recommendations; a qualified human must verify information and decide what action, if any, is appropriate.
+7. Example knowledge-base note
+Example: “Zone B, inlet near the north-side junction: grate appears partly covered by leaves in a
+demonstration photograph. Observation time and exact location require confirmation. No maintenance
+action has been authorized.”
+8. Document limitations
+This sample is intended to test PDF text extraction, chunking, indexing, semantic retrieval, and source
+attribution. It contains no verified city-specific data and must not be used for operational decisions.

@@ -1,0 +1,1 @@
+Place verified city-operation documents here (PDF, TXT or Markdown). Keep issuer, jurisdiction, publication date, version and source URL. Do not ingest confidential documents without permission.

@@ -1,0 +1,117 @@
+{
+  "selected_model": "logistic_regression_baseline",
+  "selected_metrics": {
+    "model_name": "logistic_regression_baseline",
+    "accuracy": 0.7792,
+    "precision": 0.5995,
+    "recall": 0.7443,
+    "f1_score": 0.6641,
+    "roc_auc": 0.8561,
+    "pr_auc": 0.7501,
+    "brier_score": 0.1517,
+    "cv_roc_auc_mean": 0.8685,
+    "cv_roc_auc_std": 0.0102,
+    "confusion_matrix": [
+      [
+        673,
+        175
+      ],
+      [
+        90,
+        262
+      ]
+    ]
+  },
+  "model_comparison": [
+    {
+      "model_name": "logistic_regression_baseline",
+      "accuracy": 0.7792,
+      "precision": 0.5995,
+      "recall": 0.7443,
+      "f1_score": 0.6641,
+      "roc_auc": 0.8561,
+      "pr_auc": 0.7501,
+      "brier_score": 0.1517,
+      "cv_roc_auc_mean": 0.8685,
+      "cv_roc_auc_std": 0.0102,
+      "confusion_matrix": [
+        [
+          673,
+          175
+        ],
+        [
+          90,
+          262
+        ]
+      ]
+    },
+    {
+      "model_name": "random_forest_classifier",
+      "accuracy": 0.7942,
+      "precision": 0.6343,
+      "recall": 0.7045,
+      "f1_score": 0.6676,
+      "roc_auc": 0.8497,
+      "pr_auc": 0.7363,
+      "brier_score": 0.1469,
+      "cv_roc_auc_mean": 0.8584,
+      "cv_roc_auc_std": 0.0083,
+      "confusion_matrix": [
+        [
+          705,
+          143
+        ],
+        [
+          104,
+          248
+        ]
+      ]
+    },
+    {
+      "model_name": "gradient_boosting_classifier",
+      "accuracy": 0.815,
+      "precision": 0.7289,
+      "recall": 0.5881,
+      "f1_score": 0.6509,
+      "roc_auc": 0.8509,
+      "pr_auc": 0.7376,
+      "brier_score": 0.1355,
+      "cv_roc_auc_mean": 0.8568,
+      "cv_roc_auc_std": 0.0092,
+      "confusion_matrix": [
+        [
+          771,
+          77
+        ],
+        [
+          145,
+          207
+        ]
+      ]
+    }
+  ],
+  "features": [
+    "rainfall_mm_hour",
+    "water_level_m",
+    "drainage_capacity_pct",
+    "previous_24h_rainfall_mm",
+    "soil_moisture_pct",
+    "elevation_m"
+  ],
+  "feature_importances": {
+    "rainfall_mm_hour": 0.2633,
+    "water_level_m": 0.2386,
+    "drainage_capacity_pct": 0.2091,
+    "previous_24h_rainfall_mm": 0.1353,
+    "elevation_m": 0.0984,
+    "soil_moisture_pct": 0.0553
+  },
+  "dataset_rows": 6000,
+  "positive_rate": 0.2935,
+  "trained_at_utc": "2026-11-24T11:43:47.497307+00:00",
+  "data_provenance": {
+    "is_synthetic_training_data": true,
+    "dataset": "ml/flood/datasets/flood_data.csv",
+    "note": "Synthetic demonstration dataset only. Do not use metrics as real-world flood forecasting accuracy."
+  }
+}
